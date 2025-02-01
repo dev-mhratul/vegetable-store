@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vegetable store</title>
+    <!-- sora-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- font-awsome -->
+    <script src="https://kit.fontawesome.com/2cc668a7a8.js" crossorigin="anonymous"></script>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- style -->
+     <style>
+        .sora-font {
+            font-family: "Sora", serif; 
+        }
+     </style>
+
+     <!-- script -->
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                headert: 'rgba(255, 255, 255, 1)',
+                headerb: 'rgba(239, 235, 227, 1)',
+
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+<body class="sora-font">
+    <!-- Header -->
+     <header class="bg-gradient-to-b from-headert to-headerb">
+        <section class="py-5">
+          <nav class="w-[85vw] mx-auto ">
+            <ul class="flex justify-between items-center">
+                <div>
+                    <li>
+                        <a href=""><img src="assets/logo-header.png" alt=""></a>
+                    </li>
+                </div>
+                <div class="flex gap-8">
+                    <li><a class="text-[20px]" href="">Product</a></li>
+                    <li><a class="text-[20px]" href="">Services</a></li>
+                    <li><a class="text-[20px]" href="">Contact us</a></li>
+                </div>
+                <div class="flex items-center gap-6">
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass text-[20px]"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-cart-shopping text-[20px]"></i></a></li>
+                    <li><button class="py-[10px] px-[30px] rounded-xl bg-white text-[20px]">Login</button></li>
+                    <li><button class="py-[10px] px-[30px] rounded-xl bg-[#179800] text-white text-[20px]">Register</button></li>
+                </div>
+            </ul>
+        </nav>
+        </section>
+        <!-- section-2 -->
+         <section>
+          
+         </section>
+     </header>
+</body>
+</html>
