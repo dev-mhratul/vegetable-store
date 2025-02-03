@@ -57,6 +57,9 @@
                 bg1st:'rgba(83, 219, 58, 1)',
                 bg2nd:'rgba(255, 255, 255, 1)',
 
+                // footer-p-tag
+                fpopc70:'rgba(255, 255, 255, 0.7)',
+
               }
             }
           }
@@ -314,7 +317,7 @@
             </div>
            </section>
            <!-- section-4 -->
-            <section class="flex flex-col lg:flex-row bg-[#EFEBE3] rounded-xl justify-evenly items-center py-[32px] lg:py-[55px]">
+            <section class="relative -bottom-[270px] lg:-bottom-[220px] flex flex-col lg:flex-row bg-[#EFEBE3] rounded-xl justify-evenly items-center py-[32px] lg:py-[55px]">
               <div>
                 <img src="assets/vegetable-busket.png" alt="">
               </div>
@@ -329,5 +332,32 @@
             </section>
       </main>
       <!-- footer -->
+       <footer class=" bg-[#179800] pt-[350px] pb-[50px] lg:pb-[144px]">
+        <div class="w-[85vw] mx-auto flex flex-col lg:flex-row justify-between gap-14">
+          <div>
+            <img src="assets/logo-footer.png" alt="">
+            <p class="text-fpopc70 mt-3">Discover a world of treats, toys, and<br> essentials handpicked for your furry friends</p>
+          </div>
+          <!-- 2nd -->
+         <div>
+          <ul class="grid grid-cols-1 gap-5 lg:gap-8">
+            <li><a class="lg:text-[20px] text-[#EFEBE3] " href="">Product</a></li>
+            <li><a class="lg:text-[20px] text-[#EFEBE3]" href="">Services</a></li>
+            <li><a class="lg:text-[20px] text-[#EFEBE3]" href="">Contact us</a></li>
+          </ul>
+         </div>
+         <!-- 3rd -->
+          <div class="flex flex-col justify-end gap-4">
+            <h2 class="text-[#EFEBE3] text-[14] lg:text-[16px]">Follow Us</h2>
+            <ul class="flex gap-7">
+              <li><a href=""></a><i class="fa-brands fa-facebook text-[22px] text-white"></i></li>
+              <li><a href=""></a><i class="fa-brands fa-instagram text-[22px] text-white"></i></li>
+              <li><a href=""></a><i class="fa-brands fa-linkedin text-[22px] text-white"></i></li>
+              <li><a href=""></a><i class="fa-brands fa-youtube text-[22px] text-white"></i></li>
+            </ul>
+          </div>
+        </div>
+        
+       </footer>
 </body>
 </html>
